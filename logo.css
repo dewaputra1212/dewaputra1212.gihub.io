@@ -1,0 +1,17 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo- ::-webkit-textfield-decoration-container {
+    position: absolute;
+    top: 110px; /* Jarak dari atas */
+    left: 110px; /* Jarak dari kiri */
+}
+
+.logo {
+    width: 150px; /* Sesuaikan ukuran (lebar) */
+    height: 150px; /* Sesuaikan ukuran (tinggi) agar 1:1 */
+    object-fit: cover; /* Menjaga proporsi gambar */
+}
